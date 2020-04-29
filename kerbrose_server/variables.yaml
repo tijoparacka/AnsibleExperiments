@@ -1,0 +1,8 @@
+---
+
+realm_name: EXAMPLE.COM
+kdc_domain_name: example.com
+kadmin_user: admin
+kadmin_pass: welcome
+kdc_hostname: ec2-18-232-79-65.compute-1.amazonaws.com
+kdc_admin_pass: Welcome@123

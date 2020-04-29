@@ -1,0 +1,8 @@
+---
+
+- hosts: kdc_server
+  become: yes
+  vars_files:
+    - variables.yaml
+  roles:
+    - setup_kerberos_server

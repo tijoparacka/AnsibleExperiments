@@ -1,0 +1,7 @@
+---
+
+redhat_pkg:
+  - python3
+  - krb5-libs
+  - krb5-workstation
+  - cyrus-sasl-gssapi

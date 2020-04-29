@@ -1,0 +1,5 @@
+---
+
+- name: restart kerberos
+  service: name={{ item }} state=restarted
+  with_items: "{{ redhat_service }}"

@@ -1,0 +1,11 @@
+---
+
+redhat_pkg:
+  - python3
+  - krb5-libs
+  - krb5-server
+  - krb5-workstation
+
+redhat_service:
+  - krb5kdc
+  - kadmin

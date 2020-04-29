@@ -1,0 +1,12 @@
+---
+
+- name: Install the kerberos packages
+  yum: name={{ item }} state=present
+  with_items: "{{ redhat_pkg }}"
+  become: true
+  when: ansible_os_family == "RedHat"
+
+
+- name: Copy the client configuration file
+  template: src=krb5.conf.j2 dest=/etc/krb5.conf
+  become: true
